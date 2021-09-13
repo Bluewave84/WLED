@@ -155,7 +155,7 @@ void publishMqtt();
 void handleTime();
 void handleNetworkTime();
 void sendNTPPacket();
-bool checkNTPResponse();    
+bool checkNTPResponse();
 void updateLocalTime();
 void getTimeString(char* out);
 bool checkCountdown();
@@ -174,7 +174,7 @@ void _overlayAnalogClock();
 
 byte getSameCodeLength(char code, int index, char const cronixieDisplay[]);
 void setCronixie();
-void _overlayCronixie();    
+void _overlayCronixie();
 void _drawOverlayCronixie();
 
 //playlist.cpp

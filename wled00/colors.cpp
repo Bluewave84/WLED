@@ -259,7 +259,7 @@ void colorFromDecOrHexString(byte* rgb, char* in)
   if (in[0] == 0) return;
   char first = in[0];
   uint32_t c = 0;
-  
+
   if (first == '#' || first == 'h' || first == 'H') //is HEX encoded
   {
     c = strtoul(in +1, NULL, 16);
